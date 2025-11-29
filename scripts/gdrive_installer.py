@@ -32,7 +32,7 @@ class GDriveInstaller:
     def download_file(file_id: str, output_path: str):
         """Download a single file from Google Drive."""
         
-        file_id = GDriveDownloader.extract_id(file_id)
+        file_id = GDriveInstaller.extract_id(file_id)
         url = f"https://drive.google.com/uc?id={file_id}"
         
         print(f"[GDrive] Downloading FILE: {file_id} -> {output_path}")
@@ -42,7 +42,7 @@ class GDriveInstaller:
     def download_folder(folder_id: str, output_dir: str):
         """Download an entire folder from Google Drive."""
         
-        folder_id = GDriveDownloader.extract_id(folder_id)
+        folder_id = GDriveInstaller.extract_id(folder_id)
         url = f"https://drive.google.com/drive/folders/{folder_id}"
         
         print(f"[GDrive] Downloading FOLDER: {folder_id} -> {output_dir}")
