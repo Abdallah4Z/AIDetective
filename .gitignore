@@ -1,0 +1,103 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.so
+*.egg-info/
+dist/
+build/
+
+# ------------------------------
+# Virtual Environment
+# ------------------------------
+.env
+env/
+venv/
+.venv/
+
+# ------------------------------
+# Datasets & Large Files
+# ------------------------------
+dataset/
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.npy
+*.npz
+
+# For Google Drive downloads
+downloads/
+
+# ------------------------------
+# Model Checkpoints / Weights
+# ------------------------------
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.h5
+
+# ------------------------------
+# Machine Learning Cache
+# ------------------------------
+wandb/
+mlruns/
+tensorboard/
+tb_logs/
+lightning_logs/
+logs/
+cache/
+.cache/
+
+# HuggingFace
+huggingface/
+~/.cache/huggingface/
+
+# ------------------------------
+# Notebooks
+# ------------------------------
+.ipynb_checkpoints
+*.ipynb_checkpoint
+
+# ------------------------------
+# OS Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Editors / IDEs
+# ------------------------------
+
+# VSCode
+.vscode/
+
+# JetBrains / PyCharm
+.idea/
+
+# ------------------------------
+# Temporary files
+# ------------------------------
+tmp/
+temp/
+*.tmp
+*.log
+*.bak
+*.swp
+
+# ------------------------------
+# Secrets (DO NOT TRACK)
+# ------------------------------
+*.env
+*.key
+*.secret
+*.json
