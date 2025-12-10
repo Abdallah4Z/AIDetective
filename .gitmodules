@@ -1,0 +1,3 @@
+[submodule "src/models/pretrained/TruFor"]
+	path = src/models/pretrained/TruFor
+	url = https://github.com/grip-unina/TruFor
